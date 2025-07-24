@@ -8,7 +8,7 @@ function firstNonRepeatedChar(str) {
 		{
 			if(freq[x]==1)
 			{
-			return freq[x];
+			return x;
 			}
 		}
 	return "null";
