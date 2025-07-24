@@ -8,10 +8,10 @@ function firstNonRepeatedChar(str) {
 		{
 			if(freq[x]==1)
 			{
-			return x;
+			return  "'"+x+"'";
 			}
 		}
-	return null;
+	return 'null';
 	 
 }
 const input = prompt("Enter a string");
